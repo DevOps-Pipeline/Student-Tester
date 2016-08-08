@@ -9,7 +9,7 @@ class Person{
         }
 
         public function getName(){
-                return $this->name;
+                return $this->name
         }
 
 }
