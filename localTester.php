@@ -57,5 +57,5 @@ Graphics Card Ram Size: 1000 MB;
                 $this->assertEquals($this->test->getField(0), "Gaming Laptop");
         }
 
-
+}
 ?>
