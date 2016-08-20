@@ -15,7 +15,7 @@ header, section, footer, aside, nav, article, hgroup {
 	padding:0px 0;
 	margin: 20px auto;
 	width:800px;
-//	border:2px solid blue;
+//	border:2px solid black;
 }
 
 #gadget img {
@@ -28,7 +28,7 @@ header, section, footer, aside, nav, article, hgroup {
 }
 
 #header {
-	background:red;
+	background:blue;
 	font:bold 100px Arial;
 	color:white;
 
