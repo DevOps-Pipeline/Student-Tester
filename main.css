@@ -33,7 +33,12 @@ header, section, footer, aside, nav, article, hgroup {
 	background:#7f8c8d;
 	font:bold 100px Arial;
 	color:white;
+}
 
+#footer {
+	background:#7f8c8d;
+	font:bold 100px Arial;
+	color:white;
 }
 
 #icons {

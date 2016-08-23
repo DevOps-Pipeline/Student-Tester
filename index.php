@@ -75,6 +75,7 @@
 		</div>
 	</section>
 
+	<footer id="footer">GADGET INVENTORY</footer>
 
 	</div>
 
