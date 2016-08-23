@@ -18,15 +18,15 @@
                 <ul>Contact</ul>
                 <ul>Gadgets</ul>
 	</nav>
-<?php 
+<?php
 
-	require_once('Gadget.php');	
+	require_once('Gadget.php');
 	$A = new Gadget(0);
 	$B = new Gadget(1);
 	$main =new Gadget(0);
                         if($_GET['pic']==1){
                                 $main = $A;
-                        }       
+                        }
                         else if ($_GET['pic']==2){
                                $main = $B;
                         }
@@ -56,7 +56,7 @@
 
                         if($_GET['pic']==1){
                                 echo '<img src="/Resources/1.jpg">';
-                        }       
+                        }
                         else if ($_GET['pic']==2){
                                 echo '<img src="/Resources/2.jpg">';
                         }
@@ -66,7 +66,7 @@
 
 ?>
 
-	</section>	
+	</section>
 
 	<section id="icons">
 		<div>
@@ -85,4 +85,3 @@
 </body>
 
 </html>
-

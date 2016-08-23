@@ -54,7 +54,7 @@ header, section, footer, aside, nav, article, hgroup {
 
 #icons img:hover {
 //	border:1px solid red;
-	opacity:90%;
+	opacity:40%;
 }
 
 #navigation ul {
