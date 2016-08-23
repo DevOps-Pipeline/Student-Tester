@@ -78,6 +78,7 @@ header, section, footer, aside, nav, article, hgroup {
 	width:300px;
 	padding:35px 0px;
 	text-align:left;
+	background:black;
 //	border:1px solid black;
 }
 
