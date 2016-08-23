@@ -69,18 +69,18 @@ header, section, footer, aside, nav, article, hgroup {
 	padding:0px 20px;
 }
 
-#left_side {
+#left_side{
 	float:left;
 	width:300px;
 	padding:35px 0px;
 	text-align:left;
 	background:black;
-	color:white
 //	border:1px solid black;
 }
 
 #left_side ul {
 	padding:15px;
+	color:white
 }
 
 #right_side {
