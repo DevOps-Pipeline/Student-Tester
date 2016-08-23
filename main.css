@@ -52,6 +52,11 @@ header, section, footer, aside, nav, article, hgroup {
 //	border:1px solid red;
 }
 
+#icons img:hover {
+//	border:1px solid red;
+	opacity:90%;
+}
+
 #navigation ul {
 	display:inline-block;
 	list-style:none;
