@@ -53,7 +53,7 @@ header, section, footer, aside, nav, article, hgroup {
 }
 
 #icons img:hover {
-//	border:1px solid red;
+	border:1px solid red;
 	opacity:40%;
 }
 
