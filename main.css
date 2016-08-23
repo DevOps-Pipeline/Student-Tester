@@ -36,8 +36,8 @@ header, section, footer, aside, nav, article, hgroup {
 }
 
 #footer {
-	background:#7f8c8d;
-	font:bold 100px Arial;
+	background:black;
+	font:bold 6px Arial;
 	color:white;
 }
 

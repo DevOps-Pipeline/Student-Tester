@@ -75,7 +75,7 @@
 		</div>
 	</section>
 
-	<footer id="footer">GADGET INVENTORY</footer>
+	<footer id="footer">Copyright 2016</footer>
 
 	</div>
 
