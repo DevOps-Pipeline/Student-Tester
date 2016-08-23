@@ -14,7 +14,7 @@ header, section, footer, aside, nav, article, hgroup {
 
 #gadget {
 	padding:0px 0;
-	margin: 20px auto;
+	margin:20px auto;
 	width:800px;
 //	border:2px solid black;
 }
@@ -24,7 +24,8 @@ header, section, footer, aside, nav, article, hgroup {
 }
 
 #big_wrapper {
-	width:1400px;
+	position:relative;
+	width:80%;
 	margin:20px auto;
 }
 
