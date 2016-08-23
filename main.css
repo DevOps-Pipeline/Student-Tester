@@ -48,12 +48,8 @@ header, section, footer, aside, nav, article, hgroup {
 	padding:0px 20px;
 }
 
-#icons img {
-//	border:1px solid red;
-}
-
 #icons img:hover {
-	border:1px solid red;
+//	border:1px solid red;
 	opacity:0.60;
 	filter:alpha(opacity=60)
 }
@@ -79,6 +75,7 @@ header, section, footer, aside, nav, article, hgroup {
 	padding:35px 0px;
 	text-align:left;
 	background:black;
+	color:white
 //	border:1px solid black;
 }
 
