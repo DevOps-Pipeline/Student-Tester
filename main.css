@@ -54,7 +54,8 @@ header, section, footer, aside, nav, article, hgroup {
 
 #icons img:hover {
 	border:1px solid red;
-	opacity:40%;
+	opacity:0.60;
+	filter:alpha(opacity=60)
 }
 
 #navigation ul {
