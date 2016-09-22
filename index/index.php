@@ -11,7 +11,7 @@
 <body>
 	<div id="big_wrapper">
 
-	<header id="header">Here we go</header>
+	<header id="header">Here we go again</header>
 	<nav id="navigation">
 		<ul>Home</ul>
                 <ul>About</ul>
