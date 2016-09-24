@@ -11,7 +11,7 @@
 <body>
 	<div id="big_wrapper">
 
-	<header id="header">Hey, tell your friends it was nice to meet them</header>
+	<header id="header">No.</header>
 	<nav id="navigation">
 		<ul>Home</ul>
                 <ul>About</ul>
