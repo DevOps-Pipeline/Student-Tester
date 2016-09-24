@@ -11,7 +11,7 @@
 <body>
 	<div id="big_wrapper">
 
-	<header id="header">Cmon baby show me some sugar</header>
+	<header id="header">I'm sorry Ms. Jackson</header>
 	<nav id="navigation">
 		<ul>Home</ul>
                 <ul>About</ul>
