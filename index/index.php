@@ -56,13 +56,13 @@
 <?php
 
                         if($_GET['pic']==1){
-                                echo '<img src="/Resources/1.jpg">';
+                                echo '<img src="./Resources/1.jpg">';
                         }
                         else if ($_GET['pic']==2){
-                                echo '<img src="/Resources/2.jpg">';
+                                echo '<img src="./Resources/2.jpg">';
                         }
 			else {
-                                echo '<img src="/Resources/1.jpg">';
+                                echo '<img src="./Resources/1.jpg">';
 			}
 
 ?>
@@ -71,8 +71,8 @@
 
 	<section id="icons">
 		<div>
-			<a href="index.php?pic=1" id="one"><img src="/Resources/res1.jpg"></a>
-			<a href="index.php?pic=2" id="two"><img src="/Resources/res2.jpg"></a>
+			<a href="index.php?pic=1" id="one"><img src="./Resources/res1.jpg"></a>
+			<a href="index.php?pic=2" id="two"><img src="./Resources/res2.jpg"></a>
 		</div>
 	</section>
 
