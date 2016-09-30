@@ -11,7 +11,7 @@
 <body>
 	<div id="big_wrapper">
 
-	<header id="header">No way jose</header>
+	<header id="header">Inventory</header>
 	<nav id="navigation">
 		<ul>Home</ul>
                 <ul>About</ul>
@@ -43,10 +43,10 @@
         </aside>
 
         <aside id="right_side">
-                <ul>1</ul>
-                <ul>2</ul>
-                <ul>3</ul>
-                <ul>4</ul>
+                <ul>1. Developer Information: </ul>
+                <ul>2. University Name: </ul>
+                <ul>3. Major: </ul>
+                <ul>4. Hobby: </ul>
                 <ul>5</ul>
 
         </aside>
