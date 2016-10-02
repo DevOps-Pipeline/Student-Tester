@@ -11,8 +11,7 @@
 <body>
 	<div id="big_wrapper">
 
-	<header id="header">Inventory</header>
-
+	<header id="header">I'm worth it</header>
 	<nav id="navigation">
 		<ul>Home</ul>
                 <ul>About</ul>
