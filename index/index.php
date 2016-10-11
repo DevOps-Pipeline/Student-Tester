@@ -11,7 +11,7 @@
 <body>
 	<div id="big_wrapper">
 
-	<header id="header">Closer</header>
+	<header id="header">Welcome amazon people!</header>
 	<nav id="navigation">
 		<ul>Home</ul>
                 <ul>About</ul>
