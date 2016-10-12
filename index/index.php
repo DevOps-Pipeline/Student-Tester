@@ -11,7 +11,7 @@
 <body>
 	<div id="big_wrapper">
 
-	<header id="header">Hello World!!x</header>
+	<header id="header">Pretty in pink</header>
 	<nav id="navigation">
 		<ul>Home</ul>
                 <ul>About</ul>
