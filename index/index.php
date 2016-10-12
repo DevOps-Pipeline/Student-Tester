@@ -11,7 +11,7 @@
 <body>
 	<div id="big_wrapper">
 
-	<header id="header">Hello ITen wire people!</header>
+	<header id="header">Hello ITen Wired people!</header>
 	<nav id="navigation">
 		<ul>Home</ul>
                 <ul>About</ul>
