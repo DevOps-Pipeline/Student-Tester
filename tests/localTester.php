@@ -2,7 +2,7 @@
 
 require_once '../index/Gadget.php';
 
-class Tester extends PHPUnit_Framework_TestCase{
+class localTester extends PHPUnit_Framework_TestCase{
         public $test;
 
         public function testName(){
