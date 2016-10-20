@@ -1,6 +1,6 @@
 <?php
 
-require_once '../index/Gadget.php';
+require_once '/pipeline/index/Gadget.php';
 
 class localTester extends PHPUnit_Framework_TestCase{
         public $test;
