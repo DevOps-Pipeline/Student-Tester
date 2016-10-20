@@ -3,24 +3,24 @@
 
 class Gadget {
 
-	public $item;
-       	public $name;
-       	public $model;
-	public $cost;
-       	public $manufacturer;
-       	public $specifications;
-
-	public function __construct($item){
-		$this->item = $item;
-		$this->setName();
-		$this->setModel();
-		$this->setCost();
-		$this->setManufacturer();
-		$this->setSpecifications();
+	private $item;
+    private $name;
+    private $model;
+	private $cost;
+    private $manufacturer;
+    private $link;
+	private $imgName;
+	private $icon;
+	public function __construct($it, $n, $mod, $co, $brand, $link, $image, $iconName){
+		$this->item = $it;
+		$this->name = $n;
+		$this->model = $mod;
+		$this->cost = $co;
+		$this->manufacturer = $brand;
+		$this->link = $link;
+		$this->icon = $iconName;
+		$this->imgName = $image;
 	}
-
-
-
 
 	public function fileContent($num)
 	{
@@ -29,9 +29,9 @@ class Gadget {
 		$tempArray = explode("|", $temp);
 		return $tempArray[$num];
 	}
-	
+
 	public function getField($num)
-	{	
+	{
 		$fieldArray = array();
 		$temp = $this->fileContent($this->item);
 		$fieldArray = explode(";", $temp);
@@ -39,45 +39,35 @@ class Gadget {
 	}
 
 
-
-
-
-
-
        	public function setName(){
 		$this->name = $this->getField(0);
-	} 
-        
+	}
+
      	public function setManufacturer(){
                 $this->manufacturer = $this->getField(1);
-        } 
+        }
 
 	public function setCost(){
                 $this->cost =  $this->getField(2);
-        } 
+        }
 
-	
+
         public function setModel(){
                	$this->model = $this->getField(3);
-       	} 
+       	}
 
-        
+
 	public function setSpecifications(){
                	$this->specifications = $this->getField(4);
        	}
 
-
-
-
-
-
         public function getName(){
                return $this->name;
-        } 
+        }
 
        	public function getModel(){
                 return $this->model;
-        } 
+        }
 
        	public function getCost(){
                 return $this->cost;
@@ -87,14 +77,25 @@ class Gadget {
                 return $this->manufacturer;
         }
 
-        public function getSpecifications(){
-               	return $this->specifications;
-       	}
+		public function getLink(){
+                return $this->link;
+        }
+
+		public function getItem(){
+                return $this->item;
+        }
+
+		public function getImageName(){
+                return $this->imgName;
+        }
+
+		public function getIcon(){
+                return $this->$icon;
+        }
+
 
 }
 
 
 
 ?>
-
-
