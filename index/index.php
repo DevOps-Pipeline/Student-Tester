@@ -18,7 +18,7 @@
                 <ul>Contact</ul>
                 <ul>Gadgets</ul>
 	</nav>
-<?php 
+<?php
 
 	require_once('databaseConnection.php');
 	$dbc = new databaseConnection();
@@ -32,7 +32,7 @@
                 <ul><b>Type </b><br/><p><?php echo $G->getName(); ?></p></ul>
                 <ul><b>Manufacturer </b><br/><p><?php echo $G->getManufacturer(); ?></p></ul>
                 <ul><b>Cost </b><br/><p><?php echo $G->getCost(); ?><p></ul>
-                <ul><b>Amazon </b><br/><a href="<?php echo $G->link; ?>"><?php echo $G->model; ?></a></ul>
+                <ul><b>Amazon </b><br/><a href="<?php echo $G->getLink(); ?>"><?php echo $G->getModel(); ?></a></ul>
 
         </aside>
 
@@ -49,16 +49,16 @@
 <?php
 
 echo '<img src="./Resources/';
-echo $G->imgName;
+echo $G->getImageName();
 echo '">';
 ?>
 
-	</section>	
+	</section>
 
 	<section id="icons">
 		<div>
-			<a href="index.php?pic=1" id="one"><img src="./Resources/<?php echo $dbc->getGadget(1)->icon;?>"></a>
-			<a href="index.php?pic=2" id="two"><img src="./Resources/<?php echo $dbc->getGadget(2)->icon;?>"></a>
+			<a href="index.php?pic=1" id="one"><img src="./Resources/<?php echo $dbc->getGadget(1)->getIcon();?>"></a>
+			<a href="index.php?pic=2" id="two"><img src="./Resources/<?php echo $dbc->getGadget(2)->getIcon();?>"></a>
 		</div>
 	</section>
 
@@ -72,4 +72,3 @@ echo '">';
 </body>
 
 </html>
-
