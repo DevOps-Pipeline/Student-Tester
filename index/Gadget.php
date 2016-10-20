@@ -90,7 +90,7 @@ class Gadget {
         }
 
 		public function getIcon(){
-                return $this->$icon;
+                return $this->icon;
         }
 
 
