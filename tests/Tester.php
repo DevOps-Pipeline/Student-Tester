@@ -16,7 +16,7 @@ class Tester extends PHPUnit_Framework_TestCase{
 
 	public function testName(){
                 $this->testSetup();
-                $this->assertEquals($this->test->getName(), "Gaming Laptop");
+                $this->assertEquals($this->test->getName(), "High-End Gaming Laptop");
         }
         public function testManufacturer(){
 		$this->testSetup();
@@ -24,7 +24,7 @@ class Tester extends PHPUnit_Framework_TestCase{
         }
         public function testCost(){
                 $this->testSetup();
-                $this->assertEquals($this->test->getCost(), "$500");
+                $this->assertEquals($this->test->getCost(), "$1300");
         }
         public function testImage(){
                 $this->testSetup();
