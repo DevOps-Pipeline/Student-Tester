@@ -11,24 +11,37 @@ class Tester extends PHPUnit_Framework_TestCase{
 	}
         public function testItem(){
 		$this->testSetup();
-                $this->assertEquals($this->test->item, 2);
+                $this->assertEquals($this->test->getItem(), 2);
         }
 
 	public function testName(){
                 $this->testSetup();
-                $this->assertEquals($this->test->name, "Gaming Laptop");
+                $this->assertEquals($this->test->getName(), "Gaming Laptop");
         }
         public function testManufacturer(){
 		$this->testSetup();
-                $this->assertEquals($this->test->manufacturer, "Alienware");
+                $this->assertEquals($this->test->getManufacturer(), "Alienware");
         }
         public function testCost(){
                 $this->testSetup();
-                $this->assertEquals($this->test->cost, "$500");
+                $this->assertEquals($this->test->getCost(), "$500");
         }
         public function testImage(){
                 $this->testSetup();
-                $this->assertEquals($this->test->imgName, "2.jpg");
+                $this->assertEquals($this->test->getImageName(), "2.jpg");
+        }
+
+        public function testModel(){
+                $this->testSetup();
+                $this->assertEquals($this->test->getModel(), "Alien M17x");
+        }
+        public function testLink(){
+                $this->testSetup();
+                $this->assertEquals($this->test->getLink(), "www.amazon.com");
+        }
+        public function testIcon(){
+                $this->testSetup();
+                $this->assertEquals($this->test->getIcon(), "res2.jpg");
         }
 
 
