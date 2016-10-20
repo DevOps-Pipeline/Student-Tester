@@ -1,6 +1,6 @@
 j<?php
 
-require_once '../index/databaseConnection.php';
+require_once '/pipeline/index/databaseConnection.php';
 
 class Tester extends PHPUnit_Framework_TestCase{
         public $test;
