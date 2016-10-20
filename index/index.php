@@ -32,7 +32,7 @@
                 <ul><b>Type </b><br/><p><?php echo $G->getName(); ?></p></ul>
                 <ul><b>Manufacturer </b><br/><p><?php echo $G->getManufacturer(); ?></p></ul>
                 <ul><b>Cost </b><br/><p><?php echo $G->getCost(); ?><p></ul>
-                <ul><b>Amazon </b><br/><a href="<?php echo $G->getLink(); ?>"><?php echo $G->getModel(); ?></a></ul>
+                <ul><b>Amazon </b><br/><a href="<?php $G->getLink(); ?>"><?php echo $G->getModel(); ?></a></ul>
 
         </aside>
 
