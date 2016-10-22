@@ -5,6 +5,7 @@
 
 body{
 	text-align:center;
+	background:#fafafa;
 }
 
 header, section, footer, aside, nav, article, hgroup {
@@ -13,7 +14,7 @@ header, section, footer, aside, nav, article, hgroup {
 
 #gadget {
 	padding:0px 0;
-	margin: 20px auto;
+	margin:20px auto;
 	width:800px;
 //	border:2px solid black;
 }
@@ -23,15 +24,21 @@ header, section, footer, aside, nav, article, hgroup {
 }
 
 #big_wrapper {
-	width:1400px;
+	position:relative;
+	width:1376px;
 	margin:20px auto;
 }
 
 #header {
-	background:red;
+	background:#7f8c8d;
 	font:bold 100px Arial;
 	color:white;
+}
 
+#footer {
+	background:black;
+	font:bold 20px Arial;
+	color:white;
 }
 
 #icons {
@@ -46,8 +53,10 @@ header, section, footer, aside, nav, article, hgroup {
 	padding:0px 20px;
 }
 
-#icons img {
+#icons img:hover {
 //	border:1px solid red;
+	opacity:0.60;
+	filter:alpha(opacity=60)
 }
 
 #navigation ul {
@@ -65,16 +74,18 @@ header, section, footer, aside, nav, article, hgroup {
 	padding:0px 20px;
 }
 
-#left_side {
+#left_side{
 	float:left;
 	width:300px;
 	padding:35px 0px;
 	text-align:left;
+	background:black;
 //	border:1px solid black;
 }
 
 #left_side ul {
-	padding:15px;	
+	padding:15px;
+	color:white
 }
 
 #right_side {
