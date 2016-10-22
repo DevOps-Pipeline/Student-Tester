@@ -10,7 +10,7 @@ class databaseConnection {
 	public $dbpass;
 	public $conn;
 	public function __construct(){
-	        $this->dbhost = '54.161.72.230:3306';
+	        $this->dbhost = 'localhost:3036';
 	        $this->dbname = 'Tester';
         	$this->dbuser = 'naman';
         	$this->dbpass = 'chocolate';
