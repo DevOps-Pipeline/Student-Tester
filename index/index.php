@@ -11,7 +11,7 @@
 <body>
 	<div id="big_wrapper">
 
-	<header id="header">GADGET INVENTORY TEST</header>
+	<header id="header">GADGET INVENTORY</header>
 	<nav id="navigation">
 		<ul>Home</ul>
                 <ul>About</ul>
