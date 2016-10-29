@@ -4,7 +4,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>Gadget</title>
+<title>Gadget Test</title>
 <link rel="stylesheet" href="main.css">
 </head>
 
