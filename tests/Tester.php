@@ -16,16 +16,16 @@ class Tester extends PHPUnit_Framework_TestCase{
 
 	public function testName(){
                 $this->testSetup();
-                $this->assertEquals($this->test->getName(), "Not High-End Gaming Laptop");
+                $this->assertEquals($this->test->getName(), "High-End Gaming Laptop");
         }
-        /*public function testManufacturer(){
+        public function testManufacturer(){
 		$this->testSetup();
                 $this->assertEquals($this->test->getManufacturer(), "Alienware");
         }
         public function testCost(){
                 $this->testSetup();
                 $this->assertEquals($this->test->getCost(), "$1300");
-        }*/
+        }
         // Implement the testManufacturer method here
 
         // Implement the testCost method here
