@@ -22,23 +22,6 @@ class Gadget {
 		$this->imgName = $image;
 	}
 
-	public function fileContent($num)
-	{
-		$tempArray = array();
-		$temp = file_get_contents('gadgetinfo.txt');
-		$tempArray = explode("|", $temp);
-		return $tempArray[$num];
-	}
-
-	public function getField($num)
-	{
-		$fieldArray = array();
-		$temp = $this->fileContent($this->item);
-		$fieldArray = explode(";", $temp);
-		return $fieldArray[$num];
-	}
-
-
        	public function setName(){
 		$this->name = $this->getField(0);
 	}
@@ -69,13 +52,9 @@ class Gadget {
                 return $this->model;
         }
 
-       	public function getCost(){
-                return $this->cost;
-        }
+		/** Add the getCost method below */
 
-        public function getManufacturer(){
-                return $this->manufacturer;
-        }
+		/** Add the getManufacturer method below */
 
 		public function getLink(){
                 return $this->link;
