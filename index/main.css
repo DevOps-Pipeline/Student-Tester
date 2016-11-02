@@ -88,18 +88,6 @@ header, section, footer, aside, nav, article, hgroup {
 	color:white
 }
 
-#right_side {
-	float:right;
-	width:300px;
-	padding:35px 0px;
-	text-align:left;
-//	border:1px solid black;
-}
-
-#right_side ul{
-	padding:40px;
-}
-
 #left_side b {
 	font:24px Tahoma;
 	text-align:left;
