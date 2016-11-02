@@ -11,7 +11,7 @@
 <body>
 	<div id="big_wrapper">
 
-	<header id="header">Gadget Inventory</header>
+	<header id="header">Gadget Inventory!</header>
 	<nav id="navigation">
 		<ul>Home</ul>
                 <ul>About</ul>
