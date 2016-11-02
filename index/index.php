@@ -11,6 +11,7 @@
 <body>
 	<div id="big_wrapper">
 
+	<!-- Displaying the navigation bar -->
 	<header id="header">Gadget Inventory!</header>
 	<nav id="navigation">
 		<ul>Home</ul>
@@ -18,6 +19,8 @@
                 <ul>Contact</ul>
                 <ul>Gadgets</ul>
 	</nav>
+
+<!-- Establishing a connection to the sql database -->
 <?php
 
 	require_once('databaseConnection.php');
@@ -28,31 +31,22 @@
 	else $G = $dbc->getGadget(1);
 
 ?>
+		<!-- The right side bar's data -->
         <aside id="left_side">
                 <ul><b>Type </b><br/><p><?php echo $G->getName(); ?></p></ul>
                 <ul><b>Manufacturer </b><br/><p><!-- Add call to getManufacturer method here --></p></ul>
                 <ul><b>Cost </b><br/><p><!-- Add call to getCost method here --><p></ul>
                 <ul><b>Amazon </b><br/><a href="<?php $G->getLink(); ?>"><?php echo $G->getModel(); ?></a></ul>
-
-        </aside>
-
-        <aside id="right_side">
-                <ul>1</ul>
-                <ul>2</ul>
-                <ul>3</ul>
-                <ul>4</ul>
-                <ul>5</ul>
-
         </aside>
 
 	<section id="gadget">
-<?php
+		<?php
 
-echo '<img src="./Resources/';
-echo $G->getImageName();
-echo '">';
-?>
+			echo '<img src="./Resources/';
+			echo $G->getImageName();
+			echo '">';
 
+		?>
 	</section>
 
 	<section id="icons">
@@ -62,12 +56,7 @@ echo '">';
 		</div>
 	</section>
 
-
 	</div>
-
-
-
-
 
 </body>
 
