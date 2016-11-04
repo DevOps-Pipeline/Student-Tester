@@ -41,6 +41,5 @@ class Tester extends PHPUnit_Framework_TestCase{
                 $this->assertEquals($this->test->getIcon(), "res2.jpg");
         }
 
-
 }
 ?>

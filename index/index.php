@@ -31,14 +31,15 @@
 	else $G = $dbc->getGadget(1);
 
 ?>
-		<!-- The right side bar's data -->
-        <aside id="left_side">
-                <ul><b>Type </b><br/><p><?php echo $G->getName(); ?></p></ul>
-                <ul><b>Manufacturer </b><br/><p><!-- Add call to getManufacturer method here --></p></ul>
-                <ul><b>Cost </b><br/><p><!-- Add call to getCost method here --><p></ul>
-                <ul><b>Amazon </b><br/><a href="<?php $G->getLink(); ?>"><?php echo $G->getModel(); ?></a></ul>
-        </aside>
+	<!-- The right side bar's data -->
+    <aside id="left_side">
+        <ul><b>Type </b><br/><p><?php echo $G->getName(); ?></p></ul>
+        <ul><b>Manufacturer </b><br/><p><!-- Add call to getManufacturer method here --></p></ul>
+        <ul><b>Cost </b><br/><p><!-- Add call to getCost method here --><p></ul>
+        <ul><b>Amazon </b><br/><a href="<?php $G->getLink(); ?>"><?php echo $G->getModel(); ?></a></ul>
+    </aside>
 
+	<!-- Displaying the main image -->
 	<section id="gadget">
 		<?php
 
