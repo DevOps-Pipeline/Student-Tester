@@ -22,7 +22,7 @@ class Gadget {
 		$this->setManufacturer($manufacturer);
 		$this->setLink($link);
 		$this->setImageName($imgName);
-		$this->setIconName($icon);
+		$this->setIcon($icon);
 
 	}
 
@@ -50,7 +50,7 @@ class Gadget {
 	public function setCost($cost)
 	{
 
-	            $this->cost =  $cost;
+	        $this->cost =  $cost;
 
 	}
 
@@ -75,7 +75,7 @@ class Gadget {
 
 	}
 
-	public function setIconName($icon)
+	public function setIcon($icon)
 	{
 
 	    	$this->$icon = $icon;
@@ -85,14 +85,14 @@ class Gadget {
     public function getName()
 	{
 
-	       return $this->name;
+			return $this->name;
 
 	}
 
    	public function getModel()
 	{
 
-	        return $this->model;
+	    	return $this->model;
 
 	}
 
@@ -103,7 +103,7 @@ class Gadget {
 	public function getLink()
 	{
 
-	        return $this->link;
+	    	return $this->link;
 
 	}
 
