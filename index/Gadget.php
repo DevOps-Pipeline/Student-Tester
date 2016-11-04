@@ -12,6 +12,7 @@ class Gadget {
 	private $imgName;
 	private $icon;
 
+	/** Creating a gadget with the different parameters */
 	public function __construct($item, $name, $model, $cost, $manufacturer, $link, $imgName, $icon)
 	{
 
@@ -26,6 +27,7 @@ class Gadget {
 
 	}
 
+	/** Sets the item ID of the gadget */
 	public function setItem($item)
 	{
 
@@ -33,6 +35,7 @@ class Gadget {
 
 	}
 
+	/** Sets the name of the gadget */
 	public function setName($name)
 	{
 
@@ -40,6 +43,7 @@ class Gadget {
 
 	}
 
+	/** Sets the model of the gadget */
     public function setModel($model)
 	{
 
@@ -47,6 +51,7 @@ class Gadget {
 
 	}
 
+	/** Sets the cost of the gadget */
 	public function setCost($cost)
 	{
 
@@ -54,6 +59,7 @@ class Gadget {
 
 	}
 
+	/** Sets the manufacturer of the gadget */
  	public function setManufacturer($manufacturer)
 	{
 
@@ -61,6 +67,7 @@ class Gadget {
 
 	}
 
+	/** Sets the link of the gadget */
 	public function setLink($link)
 	{
 
@@ -68,6 +75,7 @@ class Gadget {
 
 	}
 
+	/** Sets the image name of the gadget */
 	public function setImageName($imgName)
 	{
 
@@ -75,6 +83,7 @@ class Gadget {
 
 	}
 
+	/** Sets the icon of the gadget */
 	public function setIcon($icon)
 	{
 
@@ -82,6 +91,7 @@ class Gadget {
 
 	}
 
+	/** Returns the name of the gadget */
     public function getName()
 	{
 
@@ -89,6 +99,7 @@ class Gadget {
 
 	}
 
+	/** Returns the model of the gadget */
    	public function getModel()
 	{
 
@@ -100,6 +111,7 @@ class Gadget {
 
 	/** Add the getManufacturer method below */
 
+	/** Returns the link of the gadget */
 	public function getLink()
 	{
 
@@ -107,6 +119,7 @@ class Gadget {
 
 	}
 
+	/** Returns the item ID of the gadget */
 	public function getItem()
 	{
 
@@ -114,6 +127,7 @@ class Gadget {
 
 	}
 
+	/** Returns the image name of the gadget */
 	public function getImageName()
 	{
 
@@ -121,6 +135,7 @@ class Gadget {
 
 	}
 
+	/** Returns the icon of the gadget */
 	public function getIcon()
 	{
 
@@ -129,7 +144,4 @@ class Gadget {
 	}
 
 }
-
-
-
 ?>
