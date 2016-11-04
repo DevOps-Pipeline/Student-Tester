@@ -3,7 +3,7 @@
 require_once '/pipeline/index/Gadget.php';
 
 class localTester extends PHPUnit_Framework_TestCase{
-    public $test = new Gadget(1, "Gaming Laptop", "Alienware-M17X", "$699", "Alienware", "", "1.jpg", "res1.jpg");;
+    public $test = new Gadget(1, "Gaming Laptop", "Alienware-M17X", "$699", "Alienware", "", "1.jpg", "res1.jpg");
 
     public function testName()
     {
