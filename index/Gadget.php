@@ -11,67 +11,122 @@ class Gadget {
     private $link;
 	private $imgName;
 	private $icon;
-	public function __construct($it, $n, $mod, $co, $brand, $link, $image, $iconName){
-		$this->item = $it;
-		$this->name = $n;
-		$this->model = $mod;
-		$this->cost = $co;
-		$this->manufacturer = $brand;
-		$this->link = $link;
-		$this->icon = $iconName;
-		$this->imgName = $image;
+
+	public function __construct($item, $name, $model, $cost, $manufacturer, $link, $imgName, $icon)
+	{
+
+		$this->setItem($item);
+		$this->setName($name);
+		$this->setModel($model);
+		$this->setCost($cost);
+		$this->setManufacturer($manufacturer);
+		$this->setItem($link);
+		$this->setItem($imgName);
+		$this->setItem($icon);
+
 	}
 
-       	public function setName(){
-		$this->name = $this->getField(0);
+	public function setItem($item)
+	{
+
+		$this->item = $item;
+
 	}
 
-     	public function setManufacturer(){
-                $this->manufacturer = $this->getField(1);
-        }
+	public function setName($name)
+	{
 
-	public function setCost(){
-                $this->cost =  $this->getField(2);
-        }
+		$this->name = $name;
 
+	}
 
-        public function setModel(){
-               	$this->model = $this->getField(3);
-       	}
+    public function setModel($model)
+	{
 
+	       	$this->model = $model;
 
-	public function setSpecifications(){
-               	$this->specifications = $this->getField(4);
-       	}
+	}
 
-        public function getName(){
-               return $this->name;
-        }
+	public function setCost($cost)
+	{
 
-       	public function getModel(){
-                return $this->model;
-        }
+	            $this->cost =  $cost;
 
-		/** Add the getCost method below */
+	}
 
-		/** Add the getManufacturer method below */
+ 	public function setManufacturer($manufacturer)
+	{
 
-		public function getLink(){
-                return $this->link;
-        }
+	        $this->manufacturer = $manufacturer;
 
-		public function getItem(){
-                return $this->item;
-        }
+	}
 
-		public function getImageName(){
-                return $this->imgName;
-        }
+	public function setLink($link)
+	{
 
-		public function getIcon(){
-                return $this->icon;
-        }
+	    	$this->link = $link;
 
+	}
+
+	public function setImageName($imgName)
+	{
+
+	    	$this->$imgName = $imgName;
+
+	}
+
+	public function setIconName($icon)
+	{
+
+	    	$this->$icon = $icon;
+
+	}
+
+    public function getName()
+	{
+
+	       return $this->name;
+
+	}
+
+   	public function getModel()
+	{
+
+	        return $this->model;
+
+	}
+
+	/** Add the getCost method below */
+
+	/** Add the getManufacturer method below */
+
+	public function getLink()
+	{
+
+	        return $this->link;
+
+	}
+
+	public function getItem()
+	{
+
+	        return $this->item;
+
+	}
+
+	public function getImageName()
+	{
+
+	        return $this->imgName;
+
+	}
+
+	public function getIcon()
+	{
+
+	        return $this->icon;
+
+	}
 
 }
 
