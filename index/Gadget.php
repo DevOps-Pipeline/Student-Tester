@@ -20,9 +20,9 @@ class Gadget {
 		$this->setModel($model);
 		$this->setCost($cost);
 		$this->setManufacturer($manufacturer);
-		$this->setItem($link);
-		$this->setItem($imgName);
-		$this->setItem($icon);
+		$this->setLink($link);
+		$this->setImageName($imgName);
+		$this->setIconName($icon);
 
 	}
 
