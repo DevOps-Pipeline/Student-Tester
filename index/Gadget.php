@@ -71,14 +71,14 @@ class Gadget {
 	public function setImageName($imgName)
 	{
 
-	    	$this->$imgName = $imgName;
+	    	$this->imgName = $imgName;
 
 	}
 
 	public function setIcon($icon)
 	{
 
-	    	$this->$icon = $icon;
+	    	$this->icon = $icon;
 
 	}
 
