@@ -7,6 +7,7 @@ class localTester extends PHPUnit_Framework_TestCase
 
     public $test;
 
+    /** Testing name methods work properly */
     public function testName()
     {
 
@@ -19,6 +20,7 @@ class localTester extends PHPUnit_Framework_TestCase
 
     /** Implement the testManufacturer method below */
 
+    /** Testing model methods work properly */
     public function testModel()
     {
 
@@ -27,6 +29,7 @@ class localTester extends PHPUnit_Framework_TestCase
 
     }
 
+    /** Testing link methods work properly */
     public function testLink()
     {
 
@@ -35,6 +38,7 @@ class localTester extends PHPUnit_Framework_TestCase
 
     }
 
+    /** Testing image methods work properly */
     public function testImage()
     {
 
@@ -43,6 +47,7 @@ class localTester extends PHPUnit_Framework_TestCase
 
     }
 
+    /** Testing icon methods work properly */
     public function testIcon()
     {
 
@@ -51,6 +56,7 @@ class localTester extends PHPUnit_Framework_TestCase
 
     }
 
+    /** Testing item methods work properly */
     public function testItem()
     {
 
@@ -58,6 +64,6 @@ class localTester extends PHPUnit_Framework_TestCase
         $this->assertEquals($this->test->getItem(), 1);
 
     }
-    
+
 }
 ?>
