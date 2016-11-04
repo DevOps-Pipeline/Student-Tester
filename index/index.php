@@ -11,8 +11,9 @@
 <body>
 	<div id="big_wrapper">
 
-	<!-- Displaying the navigation bar -->
+
 	<header id="header">Gadget Inventory!</header>
+	<!-- Displaying the navigation bar -->
 	<nav id="navigation">
 		<ul>Home</ul>
                 <ul>About</ul>
